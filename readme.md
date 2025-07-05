@@ -9,6 +9,7 @@ This repository is used to trigger GitHub webhook events for integration with a 
 ## How It Works
 1. **Webhook Configuration:**
    - This repository has a webhook configured in its GitHub settings.
+   - this will work
    - The webhook points to the Flask app's `/webhook` endpoint (e.g., `https://your-ngrok-url.ngrok-free.app/webhook`).
 2. **Event Triggering:**
    - Any push, pull request, or merge action in this repo will trigger a webhook event.
